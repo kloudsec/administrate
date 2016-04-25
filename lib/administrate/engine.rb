@@ -19,7 +19,5 @@ require "administrate/namespace"
 module Administrate
   class Engine < ::Rails::Engine
     isolate_namespace Administrate
-
-    Engine.config.assets.precompile << /\.(?:svg)\z/
   end
 end
